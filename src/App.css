@@ -1,42 +1,102 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.primary-button-lg {
+  border-radius: 6px;
+  padding: 8px 24px;
+
+  box-sizing: border-box;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(58, 87, 232, 1);
+
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+
+  cursor: pointer;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.primary-button-lg:hover {
+  opacity: 0.95;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.disable-button-lg {
+  border-radius: 6px;
+  padding: 8px 24px;
+
+  box-sizing: border-box;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(138, 146, 166, 1);
+
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+
+  cursor: default;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.text-link-lg {
+  box-sizing: border-box;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgba(113, 113, 113 ,1);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+
+  cursor: pointer;
 }
 
-.card {
-  padding: 2em;
+.text-link-lg:hover {
+  color: rgba(40, 40, 40, 1)
 }
 
-.read-the-docs {
-  color: #888;
+.full-width {
+  width: 100%;
+}
+
+.kakao-sign-in-button {
+  width: 56px;
+  height: 56px;
+
+  background-position: 50%, 50%;
+  background-size: 100%, 100%;
+  background-image: url(assets/images/kakao-sign-in.png);
+
+  cursor: pointer;
+}
+
+.naver-sign-in-button {
+  width: 56px;
+  height: 56px;
+  
+  background-position: 50%, 50%;
+  background-size: 100%, 100%;
+  background-image: url(assets/images/naver-sign-in.png);
+
+  cursor: pointer;
+}
+
+.google-sign-in-button {
+  width: 56px;
+  height: 56px;
+  
+  background-position: 50%, 50%;
+  background-size: 100%, 100%;
+  background-image: url(assets/images/google-sign-in.png);
+
+  cursor: pointer;
 }
